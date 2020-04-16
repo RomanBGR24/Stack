@@ -1,6 +1,6 @@
 #include "stack.h"
 #include <iostream>
-using std;
+using std::cout, std::endl;
 
 int main ()
 {
@@ -13,6 +13,7 @@ int main ()
     rbElement c = {3,nullptr};
 
     Push(&myStack,&a);
+    cout<<"Add first element: "<<a.data<<endl;
 
     Pop(&myStack,error);
     if(error) cout<<"No more elements"<<endl;
