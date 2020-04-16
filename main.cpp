@@ -5,7 +5,7 @@
 int main ()
 {
     //Create stack 
-    rbStack myStack = {10,nullptr};
+    rbStack myStack = {nullptr,0};
     bool error=false;
     //Create elements
     rbElement a = {1,nullptr};
