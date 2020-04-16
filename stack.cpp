@@ -24,6 +24,8 @@ int Push(rbStack* stack,rbElement* elem)
 //Remove element from stack, error=true if no more elements
 int Pop(rbStack* stack, bool& error)
 {
+    int buf=0;
+    
     if(stack->count){
         int buf=stack->head->data;
 
