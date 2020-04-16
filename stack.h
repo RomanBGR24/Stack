@@ -9,4 +9,4 @@ typedef struct rbStack{
 }rbStack;
 
 int Push(rbStack* stack,rbElement* elem);
-int Pop(rbStack* stack, bool& error)
+int Pop(rbStack* stack, bool& error);
